@@ -49,6 +49,10 @@ header a {
     font-weight: bold;
 }
 
+header {
+    background-color: var(--secondary-color);
+}
+
 h1,
 h2 {
     font-family: var(--heading-font);
@@ -125,4 +129,9 @@ h1 {
     left: 0;
     right: 0;
     overflow: auto;
+}
+
+footer {
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
 }
