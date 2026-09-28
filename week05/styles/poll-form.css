@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    border-top: 1px solid #222;
+    color: #333;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.2rem;
+    background: #fff;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: navy;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    margin: 1rem;
+    gap: .5rem;
+    display: grid;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3rem;
+}
+
+label {
+    font-family: roboto, arial, sans-serif;
+    text-align: center;
+    padding-right: 1rem;
+}
+
+input[type="text"] {
+    
+    font-family: roboto, arial, sans-serif;
+}
+
+input[type="email"] {
+   
+    font-family: roboto, arial, sans-serif;
+}
+
+select {
+    font-family: roboto, arial, sans-serif;
+}
+
+input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  vertical-align: bottom;
+}
+
+textarea {
+   
+    font-family: roboto, arial, sans-serif;
+}
+
+input, select, textarea {
+  padding: 0.5rem;
+  font-size: 1.1rem;
+}
+select {
+  width: 100px;
+}
+button {
+  margin: 1rem;
+  background-color: navy;
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  padding: .75rem;
+  font-size: 1.2rem;
+  font-family: roboto, arial, sans-serif;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+
+
+footer  {
+  margin: 1rem auto 0;
+  width: 650px;
+  text-align: center;
+  font-size: 0.8em;
+  color: #777;
+  border-top: 1px solid #ccc;
+}
+
+.form-item {
+  display: grid;
+  align-items: center;
+}
+
+.column1 {
+  grid-template-columns: 3fr 1fr;
+  margin: 0.5rem 0;
+}
+
+.column2 {
+  grid-template-columns: 1fr 2fr;
+}
